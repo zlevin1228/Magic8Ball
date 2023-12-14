@@ -4,7 +4,7 @@ function shakeMagic8Ball() {
     if (question === null){
         document.getElementById('response-text').innerText = 'YOU WERE SUPPOSED TO ASK A QUESTION!!!!'
         document.getElementById('response-text').classList = 'text-danger' //changes HTML classes
-        document.getElementById('response-image').src = '#BAD/BROKENIMAGE'
+        document.getElementById('response-image').src = '#BAD/BROKENIMG'
     } else {
         document.getElementById('response-text').innerText = 'Magic 8-Ball says:'
     }
